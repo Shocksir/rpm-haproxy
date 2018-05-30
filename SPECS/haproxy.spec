@@ -18,7 +18,7 @@ Release: %{release}%{?dist}
 License: GPL
 Group: System Environment/Daemons
 URL: http://www.haproxy.org/
-Source0: http://www.haproxy.org/download/1.8/src/%{name}-%{version}.tar.gz
+Source0: http://www.haproxy.org/download/1.8/src/haproxy-1.8.9.tar.gz
 Source1: %{name}.cfg
 %{?amzn1:Source2: %{name}.init}
 %{?el6:Source2: %{name}.init}
@@ -174,7 +174,7 @@ fi
 
 %changelog
 * Thu May 18 2018 David Bezemer <info@davidbezemer.nl>
-- Update to HAproxy 1.8.8
+- Update to HAproxy 
 
 * Fri Feb 23 2018 J. Casalino <casalino@adobe.com>
 - Add support for Amazon Linux (Fedora-based)
